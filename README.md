@@ -8,7 +8,7 @@ At the root folder of the project, just issue the following command:
 
 Then you can create an account, for example:
 
-    USER=$(id -u) GROUP=$(id -g) docker-compose run ethereum-geth --datadir /home/aladdin/.ethereum account new
+    USER=$(id -u) GROUP=$(id -g) docker-compose run ethereum-geth --datadir /home/root/.ethereum account new
 
 Don't know what to do? Explore it using the help command:
 
