@@ -20,7 +20,7 @@ services:
     command:
       [
         # Blockchain sync mode ("snap", "full" or "light")
-        "--syncmode=light",
+        "--syncmode=full",
         # Megabytes of memory allocated to internal caching
         "--cache=8192",
         # Enable the WS-RPC server
